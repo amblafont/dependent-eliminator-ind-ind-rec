@@ -1,0 +1,3 @@
+Attempts to simulate the full dependent inductive-inductive-recursive eliminator in Coq with UIP.
+
+Matthieu & Forsberg believe it is not possible..
