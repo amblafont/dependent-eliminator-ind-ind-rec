@@ -1,3 +1,9 @@
 Attempts to simulate the full dependent inductive-inductive-recursive eliminator in Coq with UIP.
 
-Matthieu & Forsberg believe it is not possible..
+Some people think it is not possible in general. Let us try to find a simple one for which it is impossible
+
+./configure
+make
+
+conTyEl.v is an example of a inductive inductive datatype whose full dependent eliminator can be simulated in Coq
+
