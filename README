@@ -5,5 +5,9 @@ Some people think it is not possible in general. Let us try to find a simple one
 ./configure
 make
 
-conTyEl.v is an example of a inductive inductive datatype whose full dependent eliminator can be simulated in Coq
+conTyEl.v is an example of a inductive inductive datatype whose full dependent eliminator can be simulated in Coq.
 
+Note : Folsberg in his phD translates inductive-inductive non-dependent recursors to an extensional type theory with only indexed inductive datatypes. Extensional type theory can be translated to intensional type theory with UIP and funext.
+However, Ambruse Kaposi formalized a translation of the conTyEl (non dependent) recursor into ITT without any axiom :
+https://bitbucket.org/akaposi/elims, elims / agda / IIReduction / IIReductionExamples / ConTyRec.agda 
+The question : could it work also for the dependent eliminator, and if not, why ?
